@@ -46,7 +46,7 @@ const contarTiempo = () => {
 const bloquearTarjetas = () => {
     for(let i = 0; i < numero.length; i++){
         let tarjetaBloqueada = document.getElementById(i);
-        tarjeta1.innerHTML = `<img src="img/${numero[i]}.png" alt="${numero[i]}">`;
+        tarjetaBloqueada.innerHTML = `<img src="img/${numero[i]}.png" alt="${numero[i]}">`;
         tarjetaBloqueada.disabled = true;
     }
 }
